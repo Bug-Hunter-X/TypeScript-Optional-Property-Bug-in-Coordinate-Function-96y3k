@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, bug in TypeScript related to optional properties. The `printCoord` function is designed to print the x and y coordinates. However, it fails if either x or y is missing.  The solution shows how to correctly handle optional properties using optional chaining or type guards.
